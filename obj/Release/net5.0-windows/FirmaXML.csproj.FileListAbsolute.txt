@@ -1,0 +1,6 @@
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.FrmDocumentosAduana.resources
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.csproj.GenerateResource.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.AssemblyInfoInputs.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.AssemblyInfo.cs
+C:\Users\jjcha\source\repos\FirmaXML\obj\Release\net5.0-windows\FirmaXML.csproj.CoreCompileInputs.cache

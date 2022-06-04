@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FirmaXML": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

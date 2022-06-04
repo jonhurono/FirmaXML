@@ -1,0 +1,623 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FirmaXML/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "EntityFramework.BulkInsert-ef6": "6.0.1.3",
+          "EntityFramework.MappingAPI": "6.2.1",
+          "Microsoft.AspNet.Authentication": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Authentication.Cookies": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Cryptography.Internal": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Cryptography.KeyDerivation": "1.0.0-rc1-final",
+          "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+          "Microsoft.AspNet.DataProtection.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Http.Features": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
+          "Microsoft.AspNet.Identity.Core": "2.2.3",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Security.Cryptography.Cng": "6.0.0-preview.4.21253.7",
+          "iTextSharp": "5.5.13.3"
+        },
+        "runtime": {
+          "FirmaXML.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.9": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.9.0",
+            "fileVersion": "1.8.20343.1"
+          }
+        }
+      },
+      "EntityFramework/6.4.4": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.CodeDom": "4.7.0",
+          "System.ComponentModel.Annotations": "4.7.0",
+          "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Data.SqlClient": "4.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.400.420.21404"
+          },
+          "lib/netstandard2.1/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "EntityFramework.BulkInsert-ef6/6.0.1.3": {
+        "dependencies": {
+          "EntityFramework": "6.4.4"
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.BulkInsert.dll": {
+            "assemblyVersion": "6.0.1.2",
+            "fileVersion": "6.0.1.2"
+          }
+        }
+      },
+      "EntityFramework.MappingAPI/6.2.1": {
+        "dependencies": {
+          "EntityFramework": "6.4.4"
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.MappingAPI.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.3": {
+        "dependencies": {
+          "BouncyCastle": "1.8.9"
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.3",
+            "fileVersion": "5.5.13.3"
+          }
+        }
+      },
+      "Microsoft.AspNet.Authentication/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Authentication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Authentication.Cookies/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Authentication.Cookies.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Cryptography.Internal.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Cryptography.KeyDerivation/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.DataProtection/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.DataProtection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.DataProtection.Abstractions/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Hosting.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Http.Abstractions/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Http.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Http.Extensions/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Http.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Http.Features/1.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Http.Features.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity/3.0.0-rc1-final": {
+        "runtime": {
+          "lib/net451/Microsoft.AspNet.Identity.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.11116"
+          }
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.3": {
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.3.11125"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "System.CodeDom/4.7.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Configuration.ConfigurationManager/4.7.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.7.0",
+          "System.Security.Permissions": "4.7.0"
+        }
+      },
+      "System.Data.SqlClient/4.8.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "System.Formats.Asn1/6.0.0-preview.4.21253.7": {
+        "runtime": {
+          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.25307"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Cryptography.Cng/6.0.0-preview.4.21253.7": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0-preview.4.21253.7"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.25307"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.25307"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.7.0": {},
+      "System.Security.Permissions/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Windows.Extensions": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Windows.Extensions/4.7.0": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirmaXML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle/1.8.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
+      "path": "bouncycastle/1.8.9",
+      "hashPath": "bouncycastle.1.8.9.nupkg.sha512"
+    },
+    "EntityFramework/6.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
+      "path": "entityframework/6.4.4",
+      "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "EntityFramework.BulkInsert-ef6/6.0.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GsfgPeTV4QZIwxxWJwQC/aINZLhWVvmPjiQDASTTeN7KhqpvJJCbdKSeuKLHhF77uHWXMlR/HfUD46qhMGfSxg==",
+      "path": "entityframework.bulkinsert-ef6/6.0.1.3",
+      "hashPath": "entityframework.bulkinsert-ef6.6.0.1.3.nupkg.sha512"
+    },
+    "EntityFramework.MappingAPI/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eanbDckh4CCl1vJaoHZGW9A+eSZ5DA5WiIMnEvkFLex6HXEdSw3Nr21Xn6JZmXc3hVXmj1gu4NLz/UhmUp92lQ==",
+      "path": "entityframework.mappingapi/6.2.1",
+      "hashPath": "entityframework.mappingapi.6.2.1.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
+      "path": "itextsharp/5.5.13.3",
+      "hashPath": "itextsharp.5.5.13.3.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Authentication/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sdFCeQlwkJXZ1KHsRvf7ewNEWkEeKYNpcEKKC0D+WNUvLliziLc7cMH+6sjNmTU3FgGjGrSk4WjGQMhsOHCrDQ==",
+      "path": "microsoft.aspnet.authentication/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.authentication.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Authentication.Cookies/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjeSG8Z5i5Kqo1nC7wW1BO+YMk+gs/AVVJlmyF7EGgiUBtAAPkrgjxSabQqvFhPgpEFledUQ6gkhKXgr4WrMtw==",
+      "path": "microsoft.aspnet.authentication.cookies/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.authentication.cookies.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Cryptography.Internal/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gQBLMaEd0ZRntSBjuWFJ6Qu3BKO6SORWA3Iv/Rhd4oEB1O8Mzdk3nHAyWyo/i8GhE740sajdwT8yXZTm3fzglg==",
+      "path": "microsoft.aspnet.cryptography.internal/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.cryptography.internal.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Cryptography.KeyDerivation/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a0HOA+i0gEY5SIzJZX4QXuj+hY6C7NT3t60EwreWYPAy/rruoxlkarU8H9oHwtatT2/FjC8kdMNQS72y1I/5KQ==",
+      "path": "microsoft.aspnet.cryptography.keyderivation/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.cryptography.keyderivation.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.DataProtection/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HKcaIDRCz5KWkhmRiRs9mjZupJbdP3+Z3RQKdqwa6ZsXsO0ZUnmfpdYp6IFG69rTznmoSKjKJpcnvRA7w6psyA==",
+      "path": "microsoft.aspnet.dataprotection/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.dataprotection.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.DataProtection.Abstractions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rNCftGtK32L1R8Y3JDl31fPtYI/wppN3xngBtcQ5R8DZBfSKzabDWre95feBIKWjcPqE+P/Y7n6ax8oGFcVSZw==",
+      "path": "microsoft.aspnet.dataprotection.abstractions/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.dataprotection.abstractions.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tv6YJk78cH+gFipRNjeMpzzUg3t4BQiS0xYVlv/8gVNl4sI6ytAMYYfIbx8pCacIRH5Nx/Tw9GVn28eyw+JZfA==",
+      "path": "microsoft.aspnet.fileproviders.abstractions/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.fileproviders.abstractions.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Hosting.Abstractions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07N5rzYcsjkLgwoI923FcAvvf7167qhLgCExXwYYkdZUIJQzneRG0DqZJTm6qpnaD5igf4FM9F+eh2m7y5NFbg==",
+      "path": "microsoft.aspnet.hosting.abstractions/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.hosting.abstractions.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Http.Abstractions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sfzc1WJMl8wGCF+rChVfJ7otT6tTv24RNXUej2r8tlQ2RDNnAozYyGb0SCW2mxpHrC31On99Wt0rksgF0c2WUw==",
+      "path": "microsoft.aspnet.http.abstractions/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.http.abstractions.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Http.Extensions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rsjbxD9W6NfqP0WNHMRyetIh6ZoKRbK1ea0V5xWdVAx53WdvgBy0HmkSwXt506+xU65jjZP19F4Ua4YjZdPHfQ==",
+      "path": "microsoft.aspnet.http.extensions/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.http.extensions.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Http.Features/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WlscfdAvN8XaaK1iv1Iewp5emei7+0SlXNkUh7kMJpeaS6K0GhwNmwqZR6VrT1oN+Maw98nEONHS34/suqQwOA==",
+      "path": "microsoft.aspnet.http.features/1.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.http.features.1.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Identity/3.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ACPci5zUktgGFqdZ48dWexty24lROTEW/MK3LxIDe88zssLiqMhHrIndp4G/1vafmUfL+9lTw7oda6GRD53cEg==",
+      "path": "microsoft.aspnet.identity/3.0.0-rc1-final",
+      "hashPath": "microsoft.aspnet.identity.3.0.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mv5FpoaxspE8hlWLE4r1IdZtovg/OyFgVRhxQbx47J4sqdLImN1hnM1lnwCj+/wLmqtqFk/RYMoZ5GAcwm/00g==",
+      "path": "microsoft.aspnet.identity.core/2.2.3",
+      "hashPath": "microsoft.aspnet.identity.core.2.2.3.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.CodeDom/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
+      "path": "system.codedom/4.7.0",
+      "hashPath": "system.codedom.4.7.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
+      "path": "system.configuration.configurationmanager/4.7.0",
+      "hashPath": "system.configuration.configurationmanager.4.7.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HKLykcv6eZLbLnSMnlQ6Os4+UAmFE+AgYm92CTvJYeTOBtOYusX3qu8OoGhFrnKZax91UcLcDo5vPrqvJUTSNQ==",
+      "path": "system.data.sqlclient/4.8.1",
+      "hashPath": "system.data.sqlclient.4.8.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.Formats.Asn1/6.0.0-preview.4.21253.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2JOF9OLowguJctYksYndG3Y4gFFVWmmAMLnqfsubt5RfeKM/o/pWg5qFx3T8I6P3G3gGMPhbcnGZ0y7JNH+PQ==",
+      "path": "system.formats.asn1/6.0.0-preview.4.21253.7",
+      "hashPath": "system.formats.asn1.6.0.0-preview.4.21253.7.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/6.0.0-preview.4.21253.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xhuvxSyLpEc1YAseHP5UDan+fH5P75fJkZ29JxjWUMBIIep75MA64+hGbwDZ7F3iOsxAB5kUu7iYGGATggnqkQ==",
+      "path": "system.security.cryptography.cng/6.0.0-preview.4.21253.7",
+      "hashPath": "system.security.cryptography.cng.6.0.0-preview.4.21253.7.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ehYW0m9ptxpGWvE4zgqongBVWpSDU/JCFD4K7krxkQwSz/sFQjEXCUqpvencjy6DYDbn7Ig09R8GFffu8TtneQ==",
+      "path": "system.security.cryptography.protecteddata/4.7.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkOV6YYVBnYRa15/yv004eCGRBVADXw8qRbbNiCn/XpdJSUXkkUeIvdvFHkvnko4CdKMqG8yRHC4ox83LSlMsQ==",
+      "path": "system.security.permissions/4.7.0",
+      "hashPath": "system.security.permissions.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
+      "path": "system.windows.extensions/4.7.0",
+      "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    }
+  }
+}

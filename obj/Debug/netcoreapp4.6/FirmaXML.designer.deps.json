@@ -1,0 +1,12 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v4.6/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v4.6": {},
+    ".NETCoreApp,Version=v4.6/": {}
+  },
+  "libraries": {}
+}

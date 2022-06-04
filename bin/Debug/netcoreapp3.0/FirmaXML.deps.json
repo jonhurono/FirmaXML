@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "FirmaXML/1.0.0": {
+        "runtime": {
+          "FirmaXML.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirmaXML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

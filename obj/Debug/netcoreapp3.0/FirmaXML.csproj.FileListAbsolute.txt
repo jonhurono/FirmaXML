@@ -1,0 +1,17 @@
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.csproj.AssemblyReference.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.FrmDocumentosAduana.resources
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.csproj.GenerateResource.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.AssemblyInfoInputs.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.AssemblyInfo.cs
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.csproj.CoreCompileInputs.cache
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.exe
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.deps.json
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.runtimeconfig.json
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.runtimeconfig.dev.json
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.dll
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.pdb
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.dll
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.pdb
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.0\FirmaXML.genruntimeconfig.cache
+C:\Users\jjcha\source\repos\FirmaXML\bin\Debug\netcoreapp3.0\FirmaXML.dll.config

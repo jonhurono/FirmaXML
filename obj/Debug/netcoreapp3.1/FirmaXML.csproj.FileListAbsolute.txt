@@ -1,0 +1,7 @@
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.csproj.AssemblyReference.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.FrmDocumentosAduana.resources
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.csproj.GenerateResource.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.AssemblyInfoInputs.cache
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.AssemblyInfo.cs
+C:\Users\jjcha\source\repos\FirmaXML\obj\Debug\netcoreapp3.1\FirmaXML.csproj.CoreCompileInputs.cache
