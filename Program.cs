@@ -16,7 +16,7 @@ namespace FirmaXML
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmDocumentosAduana());
+            Application.Run(new FrmRegistro());
         }
     }
 }
