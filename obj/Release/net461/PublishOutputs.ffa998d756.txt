@@ -6,7 +6,11 @@
 \\172.16.21.70\FirmaXML\EntityFramework.dll
 \\172.16.21.70\FirmaXML\EntityFramework.BulkInsert.dll
 \\172.16.21.70\FirmaXML\EntityFramework.MappingAPI.dll
+\\172.16.21.70\FirmaXML\Google.Protobuf.dll
 \\172.16.21.70\FirmaXML\itextsharp.dll
+\\172.16.21.70\FirmaXML\K4os.Compression.LZ4.dll
+\\172.16.21.70\FirmaXML\K4os.Compression.LZ4.Streams.dll
+\\172.16.21.70\FirmaXML\K4os.Hash.xxHash.dll
 \\172.16.21.70\FirmaXML\Microsoft.AspNet.Authentication.dll
 \\172.16.21.70\FirmaXML\Microsoft.AspNet.Authentication.Cookies.dll
 \\172.16.21.70\FirmaXML\Microsoft.AspNet.Cryptography.Internal.dll
@@ -33,7 +37,14 @@
 \\172.16.21.70\FirmaXML\Microsoft.Extensions.WebEncoders.dll
 \\172.16.21.70\FirmaXML\Microsoft.Extensions.WebEncoders.Core.dll
 \\172.16.21.70\FirmaXML\Microsoft.Net.Http.Headers.dll
+\\172.16.21.70\FirmaXML\MySql.Data.dll
+\\172.16.21.70\FirmaXML\Ubiety.Dns.Core.dll
+\\172.16.21.70\FirmaXML\ZstdNet.dll
 \\172.16.21.70\FirmaXML\Newtonsoft.Json.dll
+\\172.16.21.70\FirmaXML\System.Buffers.dll
+\\172.16.21.70\FirmaXML\System.Memory.dll
+\\172.16.21.70\FirmaXML\System.Numerics.Vectors.dll
+\\172.16.21.70\FirmaXML\System.Runtime.CompilerServices.Unsafe.dll
 \\172.16.21.70\FirmaXML\System.Security.Cryptography.Algorithms.dll
 \\172.16.21.70\FirmaXML\System.Security.Cryptography.Cng.dll
 \\172.16.21.70\FirmaXML\System.Security.Cryptography.Primitives.dll

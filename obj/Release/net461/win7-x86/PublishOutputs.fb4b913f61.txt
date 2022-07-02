@@ -6,7 +6,11 @@ C:\Users\Avansis\Documents\Avansis\EntityFramework.SqlServer.dll
 C:\Users\Avansis\Documents\Avansis\EntityFramework.dll
 C:\Users\Avansis\Documents\Avansis\EntityFramework.BulkInsert.dll
 C:\Users\Avansis\Documents\Avansis\EntityFramework.MappingAPI.dll
+C:\Users\Avansis\Documents\Avansis\Google.Protobuf.dll
 C:\Users\Avansis\Documents\Avansis\itextsharp.dll
+C:\Users\Avansis\Documents\Avansis\K4os.Compression.LZ4.dll
+C:\Users\Avansis\Documents\Avansis\K4os.Compression.LZ4.Streams.dll
+C:\Users\Avansis\Documents\Avansis\K4os.Hash.xxHash.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.AspNet.Authentication.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.AspNet.Authentication.Cookies.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.AspNet.Cryptography.Internal.dll
@@ -33,7 +37,14 @@ C:\Users\Avansis\Documents\Avansis\Microsoft.Extensions.Primitives.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.Extensions.WebEncoders.Core.dll
 C:\Users\Avansis\Documents\Avansis\Microsoft.Net.Http.Headers.dll
+C:\Users\Avansis\Documents\Avansis\MySql.Data.dll
+C:\Users\Avansis\Documents\Avansis\Ubiety.Dns.Core.dll
+C:\Users\Avansis\Documents\Avansis\ZstdNet.dll
 C:\Users\Avansis\Documents\Avansis\Newtonsoft.Json.dll
+C:\Users\Avansis\Documents\Avansis\System.Buffers.dll
+C:\Users\Avansis\Documents\Avansis\System.Memory.dll
+C:\Users\Avansis\Documents\Avansis\System.Numerics.Vectors.dll
+C:\Users\Avansis\Documents\Avansis\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Avansis\Documents\Avansis\System.Security.Cryptography.Algorithms.dll
 C:\Users\Avansis\Documents\Avansis\System.Security.Cryptography.Cng.dll
 C:\Users\Avansis\Documents\Avansis\System.Security.Cryptography.Primitives.dll

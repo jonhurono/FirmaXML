@@ -2,23 +2,50 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-	<TargetFramework>net461</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <StartupObject></StartupObject>
-    <ApplicationIcon>firma.ico</ApplicationIcon>
+    <StartupObject>FirmaXML.Program</StartupObject>
+    <ApplicationIcon>output-onlinepngtools (2).ico</ApplicationIcon>
     <SignAssembly>False</SignAssembly>
+    <PackageIcon>icon-client.png</PackageIcon>
+    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
+    <AssemblyName>$(FirmaXML)</AssemblyName>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <IsPublishable>True</IsPublishable>
+    <Company>Avansis Ltda.</Company>
+    <Authors>John Chaves</Authors>
+    <Copyright>Avansis Ltda.</Copyright>
+    <Win32Resource />
+    <TargetFramework>net461</TargetFramework>
+    <Configurations>Debug;Release;nosé</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Prefer32Bit>true</Prefer32Bit>
     <OutputPath>bin\Debug\</OutputPath>
     <Optimize>True</Optimize>
+    <DebugType>none</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <WarningLevel>5</WarningLevel>
     <Optimize>False</Optimize>
+    <DebugType>none</DebugType>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="output-onlinepngtools (2).ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Pictures\icons\icon-client.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
@@ -44,11 +71,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

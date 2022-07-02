@@ -1,0 +1,7 @@
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.csproj.AssemblyReference.cache
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.csproj.SuggestedBindingRedirects.cache
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.exe.config
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.FrmDocumentosAduana.resources
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.FrmRegistro.resources
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.Properties.Resources.resources
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win-x64\FirmaXML.csproj.GenerateResource.cache

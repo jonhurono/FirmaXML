@@ -13,10 +13,10 @@ namespace FirmaXML
         /// </summary>
         [STAThread]
         static void Main()
-        {
+        {            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmRegistro());
+            Application.Run(new FrmDocumentosAduana());
         }
     }
 }

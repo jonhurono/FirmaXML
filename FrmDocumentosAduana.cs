@@ -8,6 +8,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -18,6 +19,7 @@ namespace FirmaXML
 {
     public partial class FrmDocumentosAduana : Form
     {
+
         private readonly IDocumentoAduanaBusiness _documentoAduanaBusiness;
         public FrmDocumentosAduana()
         {
@@ -27,8 +29,29 @@ namespace FirmaXML
         }
 
         private void FrmDocumentosAduana_Load(object sender, EventArgs e)
-        {
-            InicializaCampos();
+        {              
+            using (IsolatedStorageFile isolatedStorageFile = IsolatedStorageFile.GetStore(IsolatedStorageScope.User | IsolatedStorageScope.Assembly, null, null))
+            {
+                try
+                {
+                    string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDoc‌​uments), "settings.txt");
+                    if (File.Exists(path))
+                    {
+                        InicializaCampos();                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Aplicación no ha sido activada");
+                        var form = new FrmRegistro();
+                        form.ShowDialog();
+                    }                    
+                }
+                catch
+                {              
+                    //MessageBox.Show("Error en lectura de archivo");
+                    Application.Exit();
+                }
+            }            
         }
 
         private void InicializaCampos()

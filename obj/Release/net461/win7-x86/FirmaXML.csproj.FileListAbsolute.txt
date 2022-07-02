@@ -97,3 +97,16 @@ C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.csproj.Copy
 C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.exe
 C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.pdb
 C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.csproj.SuggestedBindingRedirects.cache
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\Google.Protobuf.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\K4os.Compression.LZ4.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\K4os.Compression.LZ4.Streams.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\K4os.Hash.xxHash.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\MySql.Data.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\Ubiety.Dns.Core.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\ZstdNet.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\System.Buffers.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\System.Memory.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\System.Numerics.Vectors.dll
+C:\Users\Avansis\repos\FirmaXML\bin\Release\net461\win7-x86\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.exe.config
+C:\Users\Avansis\repos\FirmaXML\obj\Release\net461\win7-x86\FirmaXML.FrmRegistro.resources
